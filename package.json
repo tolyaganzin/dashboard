@@ -1,0 +1,26 @@
+{
+  "name": "new_angular",
+  "version": "1.0.0",
+  "description": "clin code angular",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolyaganzin/dashboard.git"
+  },
+  "keywords": [
+    "dashboard",
+    "tolya",
+    "angular",
+    "cline",
+    "code"
+  ],
+  "author": "toyaganzin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tolyaganzin/dashboard/issues"
+  },
+  "homepage": "https://github.com/tolyaganzin/dashboard#readme"
+}
