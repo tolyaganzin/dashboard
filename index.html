@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="modules/app.js"></script>
+    <script src="controllers/CustomerController.js"></script>
   </head>
   <body>
-
+    <div ng-controller="CustomerController as productVm">
+        <input ng-model="productVm.title">
+    </div>
   </body>
 </html>
