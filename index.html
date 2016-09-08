@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <title></title>
     <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular/angular-route.js"></script>
     <script src="modules/app.js"></script>
-    <script src="controllers/CustomerController.js"></script>
+    <!-- <script src="controllers/CustomerController.js"></script> -->
+    <!-- <script src="config/configRoutes.js"></script> -->
   </head>
   <body>
-    <div ng-controller="CustomerController as productVm">
-        <input ng-model="productVm.title">
+    <div>
+        {{customer.title}}
     </div>
   </body>
 </html>

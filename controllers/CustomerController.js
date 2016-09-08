@@ -3,14 +3,13 @@
 
   // функция для 'CustomerController'
   function CustomerController() {
-      var vm = this;
-      vm.title = 'Some Title';
-      //vm.sendMessage = function() { };
+      var customer = this;
+      customer.title = 'Some customer Title';
   }
 
   //использование модуля 'app' для 'CustomerController'
   angular
       .module('app')
       .controller('CustomerController', CustomerController);
-
+      
 })();
